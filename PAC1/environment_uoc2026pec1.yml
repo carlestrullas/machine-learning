@@ -1,0 +1,12 @@
+name: uoc2026pec1
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter=1.1.1
+  - matplotlib=3.10.8
+  - numpy=2.4.2
+  - pandas=3.0.1
+  - python=3.13
+  - scikit-learn=1.8.0
+  - seaborn=0.13.2
