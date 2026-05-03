@@ -5,4 +5,4 @@ pandas==2.2.3
 scikit-learn==1.6.1
 seaborn==0.13.2
 umap-learn==0.5.7
-tabpfn==2.0.9
+tabpfn-client==0.2.8
