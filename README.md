@@ -17,3 +17,7 @@ Explores supervised learning through both classification and regression tasks. I
 ## PAC4 — Ensemble Learning and Cost-Sensitive Churn Prediction
 
 Centers on advanced ensemble methods for a multiclass SaaS churn problem with class imbalance. Includes exploratory analysis and critical comparison between AI-generated hypotheses and dataset-specific evidence, robust preprocessing with stratified train/test split, and baseline model benchmarking. It implements and tunes Random Forest, Gradient Boosting, Stacking, Cascading (stacking with passthrough), and Balanced Random Forest using cross-validation and macro-F1 optimization, with detailed analysis of class-2 recall/precision trade-offs and feature importance. The PAC closes with post-training decision-threshold tuning on predicted probabilities to enforce high recall for critical churn cases and an economic impact analysis based on intervention and churn-loss costs.
+
+## XGBoost from Scratch
+
+Standalone implementation of XGBoost in NumPy. Derives the regularised second-order objective, optimal leaf weights and split gain, implements a regressor and a binary classifier on a shared boosting loop, and benchmarks both against the official `xgboost` library on synthetic data. See [`xgboost_from_scratch/`](xgboost_from_scratch/).
