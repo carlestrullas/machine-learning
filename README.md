@@ -21,3 +21,7 @@ Centers on advanced ensemble methods for a multiclass SaaS churn problem with cl
 ## XGBoost from Scratch
 
 Standalone implementation of XGBoost in NumPy. Derives the regularised second-order objective, optimal leaf weights and split gain, implements a regressor and a binary classifier on a shared boosting loop, and benchmarks both against the official `xgboost` library on synthetic data. See [`xgboost_from_scratch/`](xgboost_from_scratch/).
+
+## Hyperparameter Optimization
+
+Compares grid search, random search and Bayesian optimization with Optuna (TPE) for tuning a random forest on the digits dataset, under the same search space and evaluation budget. Explains how TPE uses past trials to choose the next one, and compares best score, search time, convergence speed and hyperparameter importance. See [`hyperparameter_optimization/`](hyperparameter_optimization/).
