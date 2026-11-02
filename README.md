@@ -25,3 +25,7 @@ Standalone implementation of XGBoost in NumPy. Derives the regularised second-or
 ## Hyperparameter Optimization
 
 Compares grid search, random search and Bayesian optimization with Optuna (TPE) for tuning a random forest on the digits dataset, under the same search space and evaluation budget. Explains how TPE uses past trials to choose the next one, and compares best score, search time, convergence speed and hyperparameter importance. See [`hyperparameter_optimization/`](hyperparameter_optimization/).
+
+## t-SNE from Scratch
+
+Standalone implementation of t-SNE in NumPy. Derives the perplexity-calibrated Gaussian affinities, the Student-t affinities in the embedding and the gradient of the KL divergence, implements the full optimiser (early exaggeration, momentum and adaptive gains), and compares the result with scikit-learn on synthetic clusters and the digits dataset. See [`tsne_from_scratch/`](tsne_from_scratch/).
